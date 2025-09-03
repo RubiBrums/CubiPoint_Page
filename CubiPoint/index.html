@@ -1,26 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets\css\style.css">
 </head>
+
 <body>
     <header>
-
+        <img src="assets\img\header.png" alt="header">
     </header>
-    <nav>
+    <span>
+        <p><a href="https://www.instagram.com/cubipoint" class="enlaces" target="_blank" rel="noopener noreferrer">
+                Boton 1</a> | <a href="https://cubipoint.itch.io" class="enlaces" target="_blank"
+                rel="noopener noreferrer">Boton 2</a> | <a href="https://cubipoint.itch.io" class="enlaces"
+                target="_blank" rel="noopener noreferrer">Boton 3</a></p>
+    </span>
 
-    </nav>
+    <aside>
+        <table id="TablaJuegos">
+            <tr>
+                <th class="imagenProducto">
+                    <img src="" alt="Primer juego" class="imagen">
+                </th>
+                <td class="descProducto">
+                    <span class="cantidad">0</span>
+                    <p>texto 1 <BR> $ <span class="precioInicial"></span></p>
+
+                    <button onclick=sumarPrecio()>
+                        +
+                    </button>
+                    <button onclick=restarPrecio()>
+                        -
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <th class="imagenProducto">
+                    <img src="" alt="Segundo juego" class="imagen">
+                </th>
+                <td class="descProducto">
+                    <span class="cantidad">0</span>
+                    <p>texto 2 <BR> $ <span class="precioInicial"></span></p>
+
+                    <button onclick=sumarPrecio()>
+                        +
+                    </button>
+                    <button onclick=restarPrecio()>
+                        -
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <th class="imagenProducto">
+                    <img src="" alt="Tercer juego" class="imagen">
+                </th>
+                <td class="descProducto">
+                    <span class="cantidad">0</span>
+                    <p>texto 3 <BR> $ <span class="precioInicial"></span></p>
+
+                    <button onclick=sumarPrecio()>
+                        +
+                    </button>
+                    <button onclick=restarPrecio()>
+                        -
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <th>
+
+                </th>
+                <td>
+                    <p id="ValorTotal"> Total a pagar: $ <span class="valorTotal"></span> </p>
+                </td>
+            </tr>
+        </table>
+    </aside>
+
     <main>
 
     </main>
 
-
     <footer>
-
+        <p>© 2025 CubiPoint. Todos los derechos reservados.</p>
+        <p>Síguenos en: <a href="https://www.instagram.com/cubipoint" class="enlaces" target="_blank"
+                rel="noopener noreferrer"> Instagram</a> | <a href="https://cubipoint.itch.io" class="enlaces"
+                target="_blank" rel="noopener noreferrer">Itchio</a></p>
     </footer>
-</body>
     <script src="assets\js\script.js"></script>
+</body>
+
 </html>

@@ -1,0 +1,57 @@
+body{
+    background-color: antiquewhite;
+}
+
+
+header{
+    text-align: center;
+    display: block;
+}
+
+span p{
+    text-align: center;
+    white-space: nowrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(44, 19, 12);
+}
+
+footer{
+    text-align: center;
+    color: rgb(44, 19, 12);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#TablaJuegos {
+    width: 60%;
+    border-collapse: collapse;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.imagenProducto {
+    border: 3px solid rgb(161, 175, 143);
+    padding-bottom: 2%;
+    width: 50%;
+}
+
+.imagen {
+    width: 80%;
+}
+
+.descProducto {
+    border: 3px solid rgb(128, 168, 75);
+    padding: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    color: rgb(44, 19, 12);
+    width: 50%;
+    line-height: 2;
+}
+#ValorTotal{
+    text-align: center;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    color: rgb(44, 19, 12);
+}
