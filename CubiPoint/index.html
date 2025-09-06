@@ -1,147 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CubiPoint</title>
-    <link rel="stylesheet" href="assets\css\style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
     <header>
-        <img src="assets\img\header.png" alt="header">
+        <img src="assets/img/header.png" alt="header" />
     </header>
+
     <span>
-        <p><a href="https://www.instagram.com/cubipoint" class="enlaces" target="_blank" rel="noopener noreferrer">
-                Boton 1</a> | <a href="https://cubipoint.itch.io" class="enlaces" target="_blank"
-                rel="noopener noreferrer">Boton 2</a> | <a href="https://cubipoint.itch.io" class="enlaces"
-                target="_blank" rel="noopener noreferrer">Boton 3</a></p>
-    </span>
+    <p>
+      <a href="https://www.instagram.com/cubipoint" class="enlaces" target="_blank" rel="noopener noreferrer">Boton 1</a>
+      |
+      <a href="https://cubipoint.itch.io" class="enlaces" target="_blank" rel="noopener noreferrer">Boton 2</a>
+      |
+      <a href="https://cubipoint.itch.io" class="enlaces" target="_blank" rel="noopener noreferrer">Boton 3</a>
+    </p>
+  </span>
+
     <main>
-        <section class="Productos">
+        <section id="Productos">
             <div class="BoxItems">
                 <div class="Item">
                     <span class="NombreItem">¡COCOCORRE!</span>
-                    <img src="assets\img\Item1.png" alt="COCOCORRE_img" class="ImgProducto">
+                    <img src="assets/img/Item1.png" alt="COCOCORRE_img" class="ImgProducto" />
                     <span class="Valor">$3.500 CLP</span>
-                    <button class="BotonAgregar">Añadir al carrito</button>
+                    <button class="BotonAgregar" data-name="¡COCOCORRE!" data-price="3500" data-img="assets/img/Item1.png">
+            Añadir al carrito
+          </button>
                 </div>
+
                 <div class="Item">
                     <span class="NombreItem">The Feat of Pip</span>
-                    <img src="assets\img\Item1.png" alt="TFoP_img" class="ImgProducto">
+                    <img src="assets/img/Item2.png" alt="TFoP_img" class="ImgProducto" />
                     <span class="Valor">$4.000 CLP</span>
-                    <button class="BotonAgregar">Añadir al carrito</button>
+                    <button class="BotonAgregar" data-name="The Feat of Pip" data-price="4000" data-img="assets/img/Item2.png">
+            Añadir al carrito
+          </button>
                 </div>
+
                 <div class="Item">
                     <span class="NombreItem">Prankikiriki</span>
-                    <img src="assets\img\Item1.png" alt="Prankikiriki_img" class="ImgProducto">
+                    <img src="assets/img/Item3.png" alt="Prankikiriki_img" class="ImgProducto" />
                     <span class="Valor">$2.000 CLP</span>
-                    <button class="BotonAgregar">Añadir al carrito</button>
+                    <button class="BotonAgregar" data-name="Prankikiriki" data-price="2000" data-img="assets/img/Item3.png">
+            Añadir al carrito
+          </button>
                 </div>
+
                 <div class="Item">
                     <span class="NombreItem">Ilustrina vs. IAs</span>
-                    <img src="assets\img\Item1.png" alt="Ilustrina_img" class="ImgProducto">
+                    <img src="assets/img/Item4.png" alt="Ilustrina_img" class="ImgProducto" />
                     <span class="Valor">$3.500 CLP</span>
-                    <button class="BotonAgregar">Añadir al carrito</button>
-                </div>
-                <div class="Item">
-                    <span class="NombreItem">¡COCOCORRE! - Chapitas Comunidad</span>
-                    <img src="assets\img\Item1.png" alt="Item1_img" class="ImgProducto">
-                    <span class="Valor">$1.500 CLP</span>
-                    <button class="BotonAgregar">Añadir al carrito</button>
-                </div>
-                <div class="Item">
-                    <span class="NombreItem">¡COCOCORRE!- Libro de arte</span>
-                    <img src="assets\img\Item1.png" alt="Item2_img" class="ImgProducto">
-                    <span class="Valor">$20.000 CLP</span>
-                    <button class="BotonAgregar">Añadir al carrito</button>
-                </div>
-                <div class="Item">
-                    <span class="NombreItem">The Feat of Pip - Chapitas Comunidad</span>
-                    <img src="assets\img\Item1.png" alt="Item3_img" class="ImgProducto">
-                    <span class="Valor">$1.500 CLP</span>
-                    <button class="BotonAgregar">Añadir al carrito</button>
-                </div>
-                <div class="Item">
-                    <span class="NombreItem">Prankikiriki - Peluche</span>
-                    <img src="assets\img\Item1.png" alt="Item4_img" class="ImgProducto">
-                    <span class="Valor">$5.000 CLP</span>
-                    <button class="BotonAgregar">Añadir al carrito</button>
-                </div>
-                <div class="Item">
-                    <span class="NombreItem">Ilustrina vs. IAs - Poster</span>
-                    <img src="assets\img\Item1.png" alt="Item5_img" class="ImgProducto">
-                    <span class="Valor">$4.500 CLP</span>
-                    <button class="BotonAgregar">Añadir al carrito</button>
-                </div>
-                <div class="Item">
-                    <span class="NombreItem">Ilustrina vs. IAs | Protección 1 - Chapitas Comunidad</span>
-                    <img src="assets\img\Item1.png" alt="Item6_img" class="ImgProducto">
-                    <span class="Valor">$1.500 CLP</span>
-                    <button class="BotonAgregar">Añadir al carrito</button>
-                </div>
-                <div class="Item">
-                    <span class="NombreItem">Ilustrina vs. IAs | Protección 2 - Chapitas Comunidad</span>
-                    <img src="assets\img\Item1.png" alt="Item7_img" class="ImgProducto">
-                    <span class="Valor">$1.500 CLP</span>
-                    <button class="BotonAgregar">Añadir al carrito</button>
-                </div>
-                <div class="Item">
-                    <span class="NombreItem">Ilustrina vs. IAs | Protección 3 - Chapitas Comunidad</span>
-                    <img src="assets\img\Item1.png" alt="Item8_img" class="ImgProducto">
-                    <span class="Valor">$1.500 CLP</span>
-                    <button class="BotonAgregar">Añadir al carrito</button>
-                </div>
-                <div class="Item">
-                    <span class="NombreItem">CubiPoint - Libreta</span>
-                    <img src="assets\img\Item1.png" alt="Item9_img" class="ImgProducto">
-                    <span class="Valor">$4.000 CLP</span>
-                    <button class="BotonAgregar">Añadir al carrito</button>
+                    <button class="BotonAgregar" data-name="Ilustrina vs. IAs" data-price="3500" data-img="assets/img/Item4.png">
+            Añadir al carrito
+          </button>
                 </div>
             </div>
+
             <div class="BoxCarrito">
                 <div class="Titulo">
                     <h2>Tu carrito</h2>
                 </div>
+
                 <div class="ItemsCarrito">
-                    <div class="ItemCarrito">
-                        <img src="assets/img/Item2.png" alt="ImagenProducto" width="80 px">
-                        <div class="ItemDetalles">
-                            <span class="ItemCarritoTitulo">Titulo producto</span>
-                            <div class="SelectorCantidad">
-                                <i class="restar">-</i>
-                                <input type="text" value="2" class="cantidad" disabled>
-                                <i class="sumar">+</i>
+                    <div class="ItemCarrito" data-name="Prankikiriki">
+                        <img src="assets/img/Item3.png" class="ImgCarrito" alt="Prankikiriki">
+                        <div class="InfoCarrito">
+                            <span class="NombreCarrito">Prankikiriki</span>
+                            <div class="Controles">
+                                <button class="restar">-</button>
+                                <span>1</span>
+                                <button class="sumar">+</button>
                             </div>
-                            <span class="PrecioItem">$1.000 CLP</span>
-                            <span class="eliminar">Eliminar</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="ItemsCarrito">
-                    <div class="ItemCarrito">
-                        <img src="assets/img/Item1.png" alt="ImagenProducto" width="80 px">
-                        <div class="ItemDetalles">
-                            <span class="ItemCarritoTitulo">Titulo producto</span>
-                            <div class="SelectorCantidad">
-                                <i class="restar">-</i>
-                                <input type="text" value="1" class="cantidad" disabled>
-                                <i class="sumar">+</i>
-                            </div>
-                            <span class="PrecioItem">$1.000 CLP</span>
-                            <span class="eliminar">Eliminar</span>
+                            <p class="PrecioCarrito">2000 CLP</p>
+                            <button class="eliminar">Eliminar</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="PrecioFinal">
                     <div class="fila">
-                        <strong>Total: </strong>
-                        <span id="ValorTotal">
-                            $2.000 CLP
-                        </span>
-                        <button id="BotonPagar">Pagar</button>
+                        <strong id="totalText">Total: </strong>
+                        <span id="ValorTotal">$0 CLP</span>
+                        <button id="BotonPagar" type="button">Pagar</button>
                     </div>
                 </div>
             </div>
@@ -150,9 +97,14 @@
 
     <footer>
         <p>© 2025 CubiPoint. Todos los derechos reservados.</p>
-        <p>Síguenos en: <a href="https://www.instagram.com/cubipoint" class="enlaces" target="_blank" rel="noopener noreferrer"> Instagram</a> | <a href="https://cubipoint.itch.io" class="enlaces" target="_blank" rel="noopener noreferrer">Itchio</a></p>
+        <p>
+            Síguenos en:
+            <a href="https://www.instagram.com/cubipoint" class="enlaces" target="_blank" rel="noopener noreferrer">Instagram</a> |
+            <a href="https://cubipoint.itch.io" class="enlaces" target="_blank" rel="noopener noreferrer">Itchio</a>
+        </p>
     </footer>
-    <script src="assets\js\script.js"></script>
+
+    <script defer src="assets/js/script.js"></script>
 </body>
 
 </html>

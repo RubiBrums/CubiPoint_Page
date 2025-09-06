@@ -15,60 +15,154 @@ header {
     background-size: cover;
 }
 
-span p {
-    text-align: center;
-    white-space: nowrap;
-}
-
-.Productos {
+#Productos {
     max-width: 1200px;
     padding: 10px;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    contain: paint;
+    align-items: flex-start;
 }
 
-.Productos .BoxItems {
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    grid-gap: 30px;
-    grid-row-gap: 30px;
-    width: 100%;
+span p {
+    text-align: center;
+    white-space: nowrap;
 }
 
-.Productos .BoxItems .Item {
+.Item {
     max-width: 200px;
     padding: 10px;
     margin: auto;
     padding: 20px;
 }
 
-.BoxItems .Item .ImgProducto {
+.ImgProducto {
     width: 100%;
 }
 
-.BoxItems .Item .NombreItem {
+.NombreItem {
     display: block;
     font-weight: bold;
     text-align: center;
 }
 
-.BoxItems .Item .Valor {
+.Valor {
     display: block;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
 }
 
-.BoxItems .Item .BotonAgregar {
+.BotonAgregar {
     display: block;
     margin: 10px auto;
     padding: 5px 15px;
     border: none;
     background: rgb(44, 19, 12);
     color: antiquewhite;
+}
+
+.sumar,
+.restar {
+    display: inline-block;
+    margin: 0;
+    padding: 5px 10px;
+    border: none;
+    background: rgb(44, 19, 12);
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.eliminar {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 15px;
+    border: none;
+    background: rgb(44, 19, 12);
+    color: rgb(250, 235, 215);
+}
+
+#BotonPagar {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 15px;
+    border: none;
+    background: rgb(44, 19, 12);
+    color: antiquewhite;
+}
+
+.ItemCarrito {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    background: #f8f0e6;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.ItemCarritoTitulo {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
+#totalText {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
+.PrecioItem {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
+#ValorTotal {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ImgCarrito {
+    width: 60px;
+    flex-shrink: 0;
+}
+
+.InfoCarrito {
+    flex: 1;
+}
+
+.InfoCarrito span,
+.InfoCarrito p {
+    display: block;
+    margin: 4px 0;
+}
+
+.Controles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.BoxItems {
+    flex: 1;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+}
+
+.BoxCarrito {
+    width: 250px;
+    margin-left: 20px;
+    padding: 15px;
+    background: rgb(242, 218, 187);
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
 }
 
 footer {
