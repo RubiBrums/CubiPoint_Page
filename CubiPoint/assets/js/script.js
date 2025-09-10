@@ -23,19 +23,19 @@ function render() {
     carritoItems.innerHTML = "";
     carrito.forEach(item2 => {
         carritoItems.innerHTML += `
-      <div class="ItemCarrito" data-name="${item2.name}">
+      <article class="ItemCarrito" data-name="${item2.name}">
         <img src="${item2.img}" width="80">
-        <div>
+        <section>
           <span>${item2.name}</span>
-          <div class="Controles">
+          <section class="Controles">
             <button class="restar">-</button>
             <span>${item2.cantidad}</span>
             <button class="sumar">+</button>
-          </div>
+          </section>
           <p>${item2.price} CLP</p>
           <button class="eliminar">Eliminar</button>
-        </div>
-      </div>`;
+        </section>
+      </article>`;
     });
     total.textContent = [...carrito.values()].reduce((cantidad, item2) => cantidad + item2.price * item2.cantidad, 0) + " CLP";
 }
